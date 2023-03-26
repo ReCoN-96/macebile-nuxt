@@ -1,12 +1,13 @@
 <script setup lang="ts">
+import NavBar from '@/components/NavBar.vue'
 </script>
 
 <template>
-  <div>
-    bonjour
+  <div class="h-screen flex flex-col">
+    <NavBar />
+    <Practices />
   </div>
 </template>
 
-<style lang="">
-
+<style lang="scss" scoped>
 </style>

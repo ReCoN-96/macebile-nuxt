@@ -1,24 +1,48 @@
 <script setup lang="ts">
-import MailIcon from '~/components/icons/Mail.vue'
-import PhoneIcon from '~/components/icons/Phone.vue'
+import PhoneIcon from './icons/Phone.vue'
 </script>
 
 <template>
-  <div class="absolute bg-white z-50 w-full">
-    <div class="border-b-2 border-tertiary">
-      <div class="p-6 flex">
-        <div>
-          <MailIcon />
-        </div>
-        <div>
-          <PhoneIcon />
-        </div>
+  <div class="w-full h-24 relative font-display">
+    <div class="w-full flex justify-center items-center h-full">
+      <ul class="relative h-full flex items-center justify-around text-white text-[14px]">
+        <img src="~/assets/images/macebile_logo_without_sub.svg" width="100" height="86" class="absolute left-[-300px] ">
+        <li class="mr-4">
+          ACCUEIL
+        </li>
+        <li class="mr-4">
+          CONTACT
+        </li>
+        <li class="mr-4">
+          À PROPOS
+        </li>
+        <li class="mr-4">
+          SERVICES
+        </li>
+      </ul>
+    </div>
+    <div class="call-nav flex flex-col justify-center items-center font-bold text-white">
+      <p class="text-[12px] mb-2">
+        POUR UN DEVIS GRATUIT!
+      </p>
+      <div class="flex items-center">
+        <PhoneIcon />
+        <a href="+33672880507" class="text-[24px] ml-1">06-72-88-05-07</a>
       </div>
     </div>
   </div>
-<!-- https://preview.colorlib.com/theme/bootstrap/website-menu-07/#home-section -->
+  <!-- <NavBarMenuModal :is-open="isOpen" @close="isOpen = false" /> -->
 </template>
 
-<style lang="scss">
-
+<style lang="scss" scoped>
+.call-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: theme("colors.secondary");
+  width: 25%;
+  height: 100%;
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 7% 50%, 0% 0%);
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 7% 50%, 0% 0%);
+}
 </style>

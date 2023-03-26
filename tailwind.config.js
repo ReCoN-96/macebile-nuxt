@@ -20,10 +20,11 @@ module.exports = {
     },
     colors: {
       primary: '#a22c0c',
-      secondary: '#2c5bb3',
+      secondary: '#a22c0c',
       tertiary: '#627576',
       white: '#ffffff',
       black: '#000000',
+      grey: '#C0C0C0',
     },
   },
   plugins: [],
