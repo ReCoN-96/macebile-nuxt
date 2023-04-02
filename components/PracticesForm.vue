@@ -38,7 +38,7 @@ const onSubmit = handleSubmit((values) => {
         <input v-model="message" placeholder="Message" class="bg-[unset] border-[1px] border-grey h-10 text-grey px-2" name="message" type="">
         <span class="text-[#DC143C] text-[12px]">{{ errors.message }}</span>
       </div>
-      <button class="h-10 bg-secondary px-[25px] font-display">
+      <button class="h-10 bg-secondary text-white px-[25px] font-display">
         ENVOYER
       </button>
     </form>
