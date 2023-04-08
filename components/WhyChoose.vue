@@ -74,11 +74,11 @@
 <style lang="scss" scoped>
 .background-container {
   background: rgb(45,44,44);
-background: radial-gradient(circle, rgba(45,44,44,1) 0%, rgba(0,0,0,1) 90%);
+  background: radial-gradient(circle, rgba(45,44,44,1) 0%, rgba(0,0,0,1) 90%);
 }
 .icon-container {
-    clip-path: polygon(100% 0, 100% 78%, 78% 100%, 0 100%, 0 0);
-    width: 75px;
-    height: 75px;
+  clip-path: polygon(100% 0, 100% 78%, 78% 100%, 0 100%, 0 0);
+  width: 75px;
+  height: 75px;
 }
 </style>

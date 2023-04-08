@@ -9,6 +9,8 @@
   <Partners />
   <AboutUsHome />
   <WhyChoose />
+  <Services />
+  <GetFreeEstimate />
 </template>
 
 <style lang="scss" scoped>
