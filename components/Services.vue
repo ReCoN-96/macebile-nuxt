@@ -48,7 +48,7 @@ const services = [
 </script>
 
 <template>
-  <div class="min-h-[700px] w-full flex flex-col justify-around">
+  <div class="min-h-[700px] w-full flex flex-col justify-around p-20">
     <h2 class="font-display text-[64px] w-[fit-content] pb-[12px] border-b-[4px] border-primary mb-6 mx-auto">
       Nos<span class="text-primary"> Services</span>
     </h2>
@@ -64,7 +64,7 @@ const services = [
         </div>
         <h3 class="font-display text-[24px] mt-4" v-html="service.title" />
         <p class="text-[13px] pl-4 mt-4 border-l-2 border-primary" v-html="service.text" />
-        <a class="h-10 w-[125px] bg-secondary text-white px-[25px] font-display mt-8 flex justify-center items-center cursor-pointer">
+        <a class="h-10 w-[125px] bg-primary text-white px-[25px] font-display mt-8 flex justify-center items-center cursor-pointer">
           Voir plus
         </a>
       </div>

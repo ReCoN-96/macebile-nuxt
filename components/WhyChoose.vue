@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="min-h-[700px] w-full flex justify-around flex-col background-container text-white">
+  <div class="min-h-[700px] w-full flex justify-around flex-col background-container text-white relative p-20">
     <h2 class="text-[64px] font-display text-center">
       Pourquoi choisir <span class="text-primary border-b-[4px] border-primary">MACEBILE?</span>
     </h2>
@@ -68,17 +68,41 @@
         </p>
       </div>
     </div>
+    <div class="custom-shape-divider-top-1681143907">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" class="shape-fill" />
+      </svg>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 .background-container {
-  background: rgb(45,44,44);
-  background: radial-gradient(circle, rgba(45,44,44,1) 0%, rgba(0,0,0,1) 90%);
+  background: hsla(219, 61%, 44%, 1);
+  background: radial-gradient(circle, hsla(219, 61%, 44%, 1) 0%, hsla(219, 100%, 69%, 1) 100%);
 }
 .icon-container {
   clip-path: polygon(100% 0, 100% 78%, 78% 100%, 0 100%, 0 0);
   width: 75px;
   height: 75px;
+}
+.custom-shape-divider-top-1681143907 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1681143907 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 37px;
+}
+
+.custom-shape-divider-top-1681143907 .shape-fill {
+    fill: #FFFFFF;
 }
 </style>

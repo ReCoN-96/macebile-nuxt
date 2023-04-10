@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="h-[700px] flex justify-center items-center about-us-bg">
+  <div class="h-[700px] flex justify-center items-center about-us-bg relative">
     <div class="flex max-w-[1024px] w-full justify-between">
       <div class="min-w-[350px] min-h-[350px] max-h-[350px] max-w-[350px] relative">
         <div class="background-triangle-repeat absolute left-[-32px] top-[-32px]" />
@@ -11,25 +11,29 @@
         </div>
         <div class="image-triangle absolute bg-primary w-[60px] h-[60px] bottom-0 right-0" />
       </div>
-      <div class="flex flex-col max-w-[500px] text-white">
+      <div class="flex flex-col max-w-[500px] ">
         <h2 class="font-display text-[64px] w-[fit-content] pb-[12px] border-b-[4px] border-primary mb-6">
           À propos <span class="text-primary">de Nous.</span>
         </h2><p class="">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cum iure autem aliquid nihil quod quibusdam quia in, nemo accusamus quae reiciendis minus harum doloribus tempora totam cupiditate architecto voluptatum.
         </p>
-        <a class="h-10 flex justify-center items-center cursor-pointer bg-secondary text-white px-[25px] font-display w-[200px] mt-8">
+        <a class="h-10 flex justify-center items-center cursor-pointer bg-primary text-white px-[25px] font-display w-[200px] mt-8">
           Voir plus
         </a>
       </div>
+    </div>
+    <div class="custom-shape-divider-top-1681143112">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <rect x="1200" height="3.6" />
+        <rect height="3.6" />
+        <path d="M0,0V3.6H580.08c11,0,19.92,5.09,19.92,13.2,0-8.14,8.88-13.2,19.92-13.2H1200V0Z" class="shape-fill" />
+      </svg>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
-    .about-us-bg {
-        background: linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99))
-    }
-    .image-container {
+.image-container {
         clip-path: polygon(100% 0, 100% 78%, 78% 100%, 0 100%, 0 0);
     }
     .image-triangle {
@@ -40,4 +44,23 @@
         width: 140px;
         height: 140px;
     }
+    .custom-shape-divider-top-1681143112 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1681143112 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 353px;
+}
+
+.custom-shape-divider-top-1681143112 .shape-fill {
+    fill: #A22C0C;
+}
 </style>

@@ -39,7 +39,7 @@ import PhoneIcon from './icons/Phone.vue'
   position: absolute;
   right: 0;
   top: 0;
-  background-color: theme("colors.secondary");
+  background-color: theme("colors.primary");
   width: 25%;
   height: 100%;
   -webkit-clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 7% 50%, 0% 0%);
