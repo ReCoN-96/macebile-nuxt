@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@vee-validate/zod": "^4.8.4",
+    "@vueuse/core": "^10.1.0",
     "vee-validate": "^4.8.4",
     "zod": "^3.21.4"
   }

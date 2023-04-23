@@ -6,22 +6,23 @@ import PhoneIcon from './icons/Phone.vue'
   <div class="w-full h-24 relative font-display">
     <div class="w-full flex justify-center items-center h-full">
       <ul class="relative h-full flex items-center justify-around text-white text-[14px]">
-        <img src="~/assets/images/macebile_logo_without_sub.svg" width="100" height="86" class="absolute left-[-300px] ">
+        <img src="~/assets/images/macebile_logo_without_sub.svg" width="100" height="86" class="absolute left-[-300px] hidden lg:block">
+        <img src="~/assets/images/macebile_logo_without_sub.svg" width="70" class="mr-6">
         <li class="mr-4">
           ACCUEIL
         </li>
         <li class="mr-4">
-          CONTACT
+          SERVICES
         </li>
         <li class="mr-4">
           À PROPOS
         </li>
         <li class="mr-4">
-          SERVICES
+          CONTACT
         </li>
       </ul>
     </div>
-    <div class="call-nav flex flex-col justify-center items-center font-bold text-white">
+    <div class="call-nav flex flex-col justify-center items-center font-bold text-white hidden lg:block">
       <p class="text-[12px] mb-2">
         POUR UN DEVIS GRATUIT!
       </p>

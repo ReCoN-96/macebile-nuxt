@@ -7,7 +7,7 @@ import PracticesForm from '~/components/PracticesForm.vue'
 <template>
   <div class="w-full h-full flex flex-col justify-evenly items-center ">
     <div class="home z-[-1] absolute top-0 left-0 w-full h-full" />
-    <h1 class="text-white text-[20px] font-display flex justify-center">
+    <h1 class="text-white text-[16px] lg:text-[20px] font-display flex justify-center">
       <ul class="flex justify-center items-center">
         <li>Toiture</li>
         <PointIcon />
@@ -20,10 +20,10 @@ import PracticesForm from '~/components/PracticesForm.vue'
         <li>Zinguerie</li>
       </ul>
     </h1>
-    <p class="text-[64px] text-white text-center font-display">
-      Couvreur - Zingueur. <span class="text-primary">Ile de france et Oise.</span>
+    <p class="text-[32px] lg:text-[64px] text-white text-center font-display">
+      Couvreur - Zingueur. <span class="text-primary"><br class="lg:hidden">Ile de france et Oise.</span>
     </p>
-    <p class="text-white text-[16px] max-w-[650px] mx-auto text-center leading-[25px] background-text p-2">
+    <p class="text-white w-[90vw] lg:w-full text-[14px] lg:text-[16px] max-w-[650px] mx-auto text-center leading-[25px] background-text p-2">
       De la réparation mineure au remplacement complet de votre toiture, indiquez-nous le travail que vous souhaitez que nous réalisions et recevez rapidement une estimation ! (Il est possible que nous devions nous rendre sur place pour effectuer des mesures, prendre des photos, etc..)
     </p>
     <div class="flex mx-auto w-[130px]">
@@ -36,12 +36,12 @@ import PracticesForm from '~/components/PracticesForm.vue'
           <div class="star bg-[#FFFF00] w-[16px] h-[16px]" />
           <div class="star bg-[#FFFF00] w-[16px] h-[16px]" />
         </div>
-        <p class="text-grey text-[10px]">
+        <p class="text-grey text-[12px]">
           5.0 Avis Clients
         </p>
       </div>
     </div>
-    <PracticesForm />
+    <PracticesForm class="hidden lg:block" />
     <div class="custom-shape-divider-bottom-1681142732">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill" />
