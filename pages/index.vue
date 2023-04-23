@@ -9,13 +9,13 @@ import Practices from '~~/components/Practices.vue'
     <Practices />
   </div>
   <Partners />
-  <!-- <AboutUsHome />
+  <AboutUsHome />
   <WhyChoose />
   <Services />
   <GetFreeEstimate />
   <Gallery />
   <Location />
-  <Footer /> -->
+  <Footer />
 </template>
 
 <style lang="scss" scoped>
