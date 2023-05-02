@@ -42,10 +42,10 @@ import PracticesForm from '~/components/PracticesForm.vue'
       </div>
     </div>
     <PracticesForm class="hidden lg:block" />
-    <div class="custom-shape-divider-bottom-1681142732">
-      <!-- <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <div class="custom-shape-divider-bottom">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill" />
-      </svg> -->
+      </svg>
     </div>
   </div>
 </template>
@@ -72,7 +72,7 @@ import PracticesForm from '~/components/PracticesForm.vue'
   background-color: transparent;
 }
 
-.custom-shape-divider-bottom-1681142732 {
+.custom-shape-divider-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -80,16 +80,17 @@ import PracticesForm from '~/components/PracticesForm.vue'
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    height: 22px;
 }
 
-.custom-shape-divider-bottom-1681142732 svg {
+.custom-shape-divider-bottom svg {
     position: relative;
     display: block;
     width: calc(128% + 1.3px);
     height: 22px;
 }
 
-.custom-shape-divider-bottom-1681142732 .shape-fill {
+.custom-shape-divider-bottom .shape-fill {
     fill: #A22C0C;
 }
 </style>
