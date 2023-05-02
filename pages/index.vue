@@ -26,6 +26,6 @@ useHead({
 
 <style lang="scss" scoped>
 .screen-mobile {
-  height: 100dvh;
+  height: 100svh;
 }
 </style>
