@@ -4,7 +4,7 @@ import { useWindowSize } from '@vueuse/core'
 onMounted(() => {
   const { width } = useWindowSize()
   const root = window!.document.documentElement
-  root.style.setProperty('--durationPartners', `${width.value * 0.0045}s`)
+  root.style.setProperty('--durationPartners', `${width.value * 0.02}s`)
 })
 </script>
 
@@ -14,7 +14,7 @@ onMounted(() => {
     <img class="" src="@/assets/images/garantie.png">
     <img class="" src="@/assets/images/velux.svg" width="250">
   </div>
-  <div class="lg:overflow-hidden background-partners lg:hidden">
+  <div class="overflow-hidden background-partners lg:hidden">
     <div class="w-[calc(6*100vw)] flex">
       <div class="h-36 flex lg:justify-around relative w-[calc(3*100vw)] first-partners">
         <div class="w-screen h-full flex items-center justify-center ">

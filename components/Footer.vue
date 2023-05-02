@@ -5,19 +5,19 @@
 <template>
   <div class="relative mt-[200px]">
     <footer>
-      <div class="bg-primary flex items-start justify-around text-white p-20">
-        <div class="w-[200px]">
+      <div class="bg-primary flex flex-col lg:flex-row items-centerlg:items-start justify-around text-white lg:p-20 px-[10px] py-[20px]">
+        <div class="lg:w-[200px] w-[150px]">
           <img
             alt="logo macebile"
             class="footer__img"
             src="@/assets/images/macebile_logo.svg"
           >
         </div>
-        <div class="px-8 flex">
+        <h3 class="font-display pb-2 underline">
+          ZONE D'INTERVENTION
+        </h3>
+        <div class="lg:px-8 py-4 flex flex-row">
           <div>
-            <h3 class="font-display pb-2 underline">
-              ZONE D'INTERVENTION
-            </h3>
             <h4 class="pb-2 font-display underline">
               ILE DE FRANCE
             </h4>
@@ -47,7 +47,9 @@
                 95 - Val D'oise
               </li>
             </ul>
-            <h4 class="py-4 font-display underline">
+          </div>
+          <div>
+            <h4 class="font-display underline">
               HAUTS-DE-FRANCE
             </h4>
             <span class="">
@@ -55,35 +57,38 @@
             </span>
           </div>
         </div>
-
-        <div class="">
-          <h2 class="font-display pb-2 underline">
-            SERVICES
-          </h2>
-          <ul>
-            <li class="">
-              <a href="/renovation">Rénovation de toiture</a>
-            </li>
-            <li class="">
-              <a href="/fuite">Fuite de toit</a>
-            </li>
-            <li class="">
-              <a href="/demoussage">Démoussage</a>
-            </li>
-            <li class="">
-              <a href="/velux">Velux</a>
-            </li>
-            <li class="">
-              <a href="/zinguerie">Zinguerie</a>
-            </li>
-          </ul>
-        </div>
-        <div class="px-8">
-          <ul>
-            <li class="font-display">
-              <a href="/contact">Contact</a>
-            </li>
-          </ul>
+        <div>
+          <div class="flex flex-row">
+            <div>
+              <h2 class="font-display pb-2 underline">
+                SERVICES
+              </h2>
+              <ul>
+                <li class="">
+                  <a href="/renovation">Rénovation de toiture</a>
+                </li>
+                <li class="">
+                  <a href="/fuite">Fuite de toit</a>
+                </li>
+                <li class="">
+                  <a href="/demoussage">Démoussage</a>
+                </li>
+                <li class="">
+                  <a href="/velux">Velux</a>
+                </li>
+                <li class="">
+                  <a href="/zinguerie">Zinguerie</a>
+                </li>
+              </ul>
+            </div>
+            <div class="px-8">
+              <ul>
+                <li class="font-display">
+                  <a href="/contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

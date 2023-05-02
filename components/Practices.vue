@@ -7,7 +7,7 @@ import PracticesForm from '~/components/PracticesForm.vue'
 <template>
   <div class="w-full h-full flex flex-col justify-evenly items-center ">
     <div class="home z-[-1] absolute top-0 left-0 w-full h-full" />
-    <h1 class="text-white text-[16px] lg:text-[20px] font-display flex justify-center">
+    <h1 class="text-white text-[14px] lg:text-[16px] lg:text-[20px] font-display flex justify-center">
       <ul class="flex justify-center items-center">
         <li>Toiture</li>
         <PointIcon />

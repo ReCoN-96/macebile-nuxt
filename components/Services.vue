@@ -48,12 +48,12 @@ const services = [
 </script>
 
 <template>
-  <div class="min-h-[700px] w-full flex flex-col justify-around p-20">
-    <h2 class="font-display text-[64px] w-[fit-content] pb-[12px] border-b-[4px] border-primary mb-6 mx-auto">
+  <div class="lg:min-h-[700px] w-full flex flex-col justify-around mt-[60px] lg:mt-0 lg:p-20">
+    <h2 class="font-display text-[32px] lg:text-[64px] w-[fit-content] pb-[12px] border-b-[4px] border-primary mb-10 lg:mb-6 mx-auto">
       Nos<span class="text-primary"> Services</span>
     </h2>
     <div
-      class="flex max-w-[1024px] overflow-x-scroll snap-x snap-mandatory scroll-smooth mx-auto hide-scrollbar"
+      class="flex w-[90vw] lg:max-w-[1024px] overflow-x-scroll snap-x snap-mandatory scroll-smooth mx-auto hide-scrollbar"
     >
       <div v-for=" service in services" :key="service.id" class="w-[260px] mx-4 snap-center box-content">
         <div class="h-[260px] w-[260px] relative">

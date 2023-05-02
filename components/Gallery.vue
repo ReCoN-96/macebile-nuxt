@@ -2,8 +2,8 @@
 </script>
 
 <template>
-  <div class="max-w-[1024px] m-auto py-20">
-    <h2 class="text-[64px] font-display  w-[1000px] mb-8 pb-4 border-primary borer-b-2">
+  <div class="max-w-[1024px] m-auto lg:px-0 px-[10px] py-20">
+    <h2 class="lg:text-[64px] text-[32px] font-display lg:w-[1000px] mb-8 pb-4 border-primary borer-b-2">
       Nos dernières <span class="text-primary">Réalisation</span>
     </h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
