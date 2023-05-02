@@ -10,7 +10,7 @@ useHead({
 </script>
 
 <template>
-  <div class="h-screen flex flex-col">
+  <div class="screen-mobile lg:h-screen flex flex-col">
     <NavBar />
     <Practices />
   </div>
@@ -25,4 +25,7 @@ useHead({
 </template>
 
 <style lang="scss" scoped>
+.screen-mobile {
+  height: 100dvh;
+}
 </style>
