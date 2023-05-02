@@ -1,10 +1,16 @@
 <script setup lang="ts">
 import NavBar from '~~/components/NavBar.vue'
 import Practices from '~~/components/Practices.vue'
+
+useHead({
+  htmlAttrs: {
+    lang: 'fr',
+  },
+})
 </script>
 
 <template>
-  <div class="h-[667px] lg:h-screen flex flex-col">
+  <div class="h-screen flex flex-col">
     <NavBar />
     <Practices />
   </div>
