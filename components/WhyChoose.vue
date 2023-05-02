@@ -41,7 +41,7 @@
       <div class="flex flex-col lg:flex-row lg:items-center justify-center py-4">
         <div class="flex items-center justify-start lg:w-[360px]">
           <div class="icon-container bg-primary flex items-center justify-center">
-            <img class="w-[50%]" src="@/assets/images/poigne.svg">
+            <img class="w-[50%]" src="@/assets/images/temp-preferences-eco.svg">
           </div>
           <h3 class="lg:text-[32px] text-[22px] font-display ml-8">
             Notre <span class="font-[700]">Réponsabilité</span>
@@ -56,7 +56,7 @@
       <div class="flex flex-col lg:flex-row lg:items-center justify-center py-4">
         <div class="flex items-center justify-start lg:w-[360px]">
           <div class="icon-container bg-primary flex items-center justify-center">
-            <img class="w-[50%]" src="@/assets/images/poigne.svg">
+            <img class="w-[50%]" src="@/assets/images/magic-exchange-rounded.svg">
           </div>
           <h3 class="lg:text-[32px] text-[22px] font-display ml-8">
             Notre <span class="font-[700]">Processus</span>
