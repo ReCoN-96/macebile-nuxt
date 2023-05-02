@@ -4,7 +4,7 @@ import Practices from '~~/components/Practices.vue'
 </script>
 
 <template>
-  <div class="h-screen flex flex-col">
+  <div class="h-[667px] lg:h-screen flex flex-col">
     <NavBar />
     <Practices />
   </div>
