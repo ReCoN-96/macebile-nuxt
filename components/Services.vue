@@ -7,7 +7,7 @@ const services = [
     img: image1,
     title: 'Réparation <span class=\'text-primary\'>de toiture</span>',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque laudantium aliquam officia iusto autem. Consectetur ab officiis pariatur ea magnam odio cum id, exercitationem nulla repellendus facilis nihil voluptates?',
-    url: '',
+    url: '/reparation-toiture',
   },
   {
     id: 'service-2',
@@ -55,7 +55,7 @@ const services = [
     <div
       class="flex w-[90vw] lg:max-w-[1024px] overflow-x-scroll snap-x snap-mandatory scroll-smooth mx-auto hide-scrollbar"
     >
-      <div v-for=" service in services" :key="service.id" class="w-[260px] mx-4 snap-center box-content">
+      <div v-for="service in services" :key="service.id" class="w-[260px] mx-4 snap-center box-content">
         <div class="h-[260px] w-[260px] relative">
           <div class="image-container w-full h-full ">
             <img :src="service.img" class="w-full h-full object-cover">
@@ -64,7 +64,7 @@ const services = [
         </div>
         <h3 class="font-display text-[24px] mt-4" v-html="service.title" />
         <p class="text-[13px] pl-4 mt-4 border-l-2 border-primary" v-html="service.text" />
-        <a class="h-10 w-[125px] bg-primary text-white px-[25px] font-display mt-8 flex justify-center items-center cursor-pointer">
+        <a class="h-10 w-[125px] bg-primary text-white px-[25px] font-display mt-8 flex justify-center items-center cursor-pointer" :href="service.url">
           Voir plus
         </a>
       </div>
