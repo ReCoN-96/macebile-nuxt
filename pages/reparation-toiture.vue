@@ -23,5 +23,14 @@ import Header from '~~/components/reparation/Header.vue'
 <style lang="scss" scoped>
 .reparation-background {
   background-image: url('~~/assets/images/tuiles-eau.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 1024px) {
+  .reparation-background {
+    background-image: url('~~/assets/images/tuiles-eau-lg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 </style>

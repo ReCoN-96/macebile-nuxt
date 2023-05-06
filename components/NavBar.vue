@@ -5,7 +5,7 @@ import PhoneIcon from './icons/Phone.vue'
 <template>
   <div class="w-full h-24 relative font-display">
     <div class="w-full flex justify-center items-center h-full">
-      <ul class="relative h-full flex items-center justify-around text-white text-[14px]">
+      <ul class="relative h-full flex items-center justify-around text-white text-[14px] lg:text-[16px]">
         <a href="/" class="absolute left-[-300px] hidden lg:block">
           <img src="~/assets/images/macebile_logo_without_sub.svg" width="100" height="86" class="hidden lg:block">
         </a>
@@ -13,7 +13,9 @@ import PhoneIcon from './icons/Phone.vue'
           <img src="~/assets/images/macebile_logo_without_sub.svg" width="70" class="lg:hidden">
         </a>
         <li class="px-2">
-          ACCUEIL
+          <a href="/">
+            ACCUEIL
+          </a>
         </li>
         <li class="px-2">
           SERVICES

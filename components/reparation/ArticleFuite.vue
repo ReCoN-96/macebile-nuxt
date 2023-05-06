@@ -4,8 +4,8 @@
 
 <template>
   <section id="fuites" class="lg:flex lg:justify-around lg:items-center lg:max-w-[1366px] lg:mx-auto bg-[#f6f6f6] relative z-[-2]">
-    <!-- <img src="~~/assets/images/fuite.jpg" alt="Rénovation de la toiture d'un particulier" class="w-full object-cover h-[200px] mx-auto my-[30px] object-top lg:w-[500px] lg:h-[500px] lg:mx-0"> -->
-    <img src="~~/assets/images/fuite.jpg" alt="" class="absolute w-[90vw] object-cover h-[200px] object-top top-0 left-0 right-0 z-[-1] opacity-10 mx-auto">
+    <img src="~~/assets/images/fuite.jpg" alt="Rénovation de la toiture d'un particulier" class="object-cover h-[200px] object-top lg:w-[500px] lg:h-[500px] lg:mx-0 hidden lg:block">
+    <img src="~~/assets/images/fuite.jpg" alt="" class="absolute w-[90vw] object-cover h-[200px] object-top top-0 left-0 right-0 z-[-1] opacity-10 mx-auto lg:hidden">
     <div
       class="lg:pt-[60px] max-w-[375px] lg:max-w-[500px] mx-auto lg:mx-0"
     >
