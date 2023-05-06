@@ -5,7 +5,7 @@ import PhoneIcon from './icons/Phone.vue'
 <template>
   <div class="w-full h-24 relative font-display">
     <div class="w-full flex justify-center items-center h-full">
-      <ul class="relative h-full flex items-center justify-around text-white text-[14px] lg:text-[16px]">
+      <ul class="relative h-full flex items-center justify-around text-white">
         <a href="/" class="absolute left-[-300px] hidden lg:block">
           <img src="~/assets/images/macebile_logo_without_sub.svg" width="100" height="86" class="hidden lg:block">
         </a>
@@ -28,14 +28,14 @@ import PhoneIcon from './icons/Phone.vue'
         </li>
       </ul>
     </div>
-    <a href="tel:+33672880507">
+    <a href="+33619360943">
       <div class="call-nav lg:flex flex-col justify-center items-center font-bold text-white hidden">
         <p class="text-[12px] mb-2">
           POUR UN DEVIS GRATUIT!
         </p>
         <div class="flex items-center">
           <PhoneIcon />
-          <span class="text-[24px] ml-1">06-72-88-05-07</span>
+          <span class="text-[24px] ml-1">06-19-36-09-43</span>
         </div>
       </div>
     </a>

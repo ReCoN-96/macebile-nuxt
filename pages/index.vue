@@ -22,6 +22,7 @@ useHead({
   <Gallery />
   <Location />
   <Footer />
+  <CallMobile />
 </template>
 
 <style lang="scss" scoped>

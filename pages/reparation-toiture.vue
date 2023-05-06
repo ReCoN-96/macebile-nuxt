@@ -18,6 +18,7 @@ import Header from '~~/components/reparation/Header.vue'
     <GetFreeEstimate />
   </div>
   <Footer />
+  <CallMobile />
 </template>
 
 <style lang="scss" scoped>
