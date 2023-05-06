@@ -6,8 +6,10 @@ import PhoneIcon from './icons/Phone.vue'
   <div class="w-full h-24 relative font-display">
     <div class="w-full flex justify-center items-center h-full">
       <ul class="relative h-full flex items-center justify-around text-white text-[14px]">
+        <a href="/" class="absolute left-[-300px] hidden lg:block">
+          <img src="~/assets/images/macebile_logo_without_sub.svg" width="100" height="86" class="hidden lg:block">
+        </a>
         <a href="/">
-          <img src="~/assets/images/macebile_logo_without_sub.svg" width="100" height="86" class="absolute left-[-300px] hidden lg:block">
           <img src="~/assets/images/macebile_logo_without_sub.svg" width="70" class="lg:hidden">
         </a>
         <li class="px-2">
@@ -24,15 +26,17 @@ import PhoneIcon from './icons/Phone.vue'
         </li>
       </ul>
     </div>
-    <div class="call-nav lg:flex flex-col justify-center items-center font-bold text-white hidden ">
-      <p class="text-[12px] mb-2">
-        POUR UN DEVIS GRATUIT!
-      </p>
-      <div class="flex items-center">
-        <PhoneIcon />
-        <a href="+33672880507" class="text-[24px] ml-1">06-72-88-05-07</a>
+    <a href="tel:+33672880507">
+      <div class="call-nav lg:flex flex-col justify-center items-center font-bold text-white hidden">
+        <p class="text-[12px] mb-2">
+          POUR UN DEVIS GRATUIT!
+        </p>
+        <div class="flex items-center">
+          <PhoneIcon />
+          <span class="text-[24px] ml-1">06-72-88-05-07</span>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
   <!-- <NavBarMenuModal :is-open="isOpen" @close="isOpen = false" /> -->
 </template>

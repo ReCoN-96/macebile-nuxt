@@ -1,24 +1,25 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
-  <section>
-    <div>
-      <h1 class="text-[32px] font-display text-center">
-        Réparation de toiture
-      </h1>
-      <img src="~~/assets/images/fuite.jpg" alt="Rénovation de la toiture d'un particulier" class="w-full object-cover h-[200px] mx-auto my-[30px] object-top">
-      <h2 class="text-[22px] text-center max-w-[375px] mx-auto">
+  <section id="fuites" class="lg:flex lg:justify-around lg:items-center lg:max-w-[1366px] lg:mx-auto bg-[#f6f6f6] relative z-[-2]">
+    <!-- <img src="~~/assets/images/fuite.jpg" alt="Rénovation de la toiture d'un particulier" class="w-full object-cover h-[200px] mx-auto my-[30px] object-top lg:w-[500px] lg:h-[500px] lg:mx-0"> -->
+    <img src="~~/assets/images/fuite.jpg" alt="" class="absolute w-[90vw] object-cover h-[200px] object-top top-0 left-0 right-0 z-[-1] opacity-10 mx-auto">
+    <div
+      class="lg:pt-[60px] max-w-[375px] lg:max-w-[500px] mx-auto lg:mx-0"
+    >
+      <h2 class="text-[22px] text-center mx-auto font-bold mt-[30px] underline underline-offset-8 decoration-primary">
         Fuite de toit - Comment Macebile détecte et répare les fuites
       </h2>
       <div class="px-2 flex flex-col items-center">
-        <p class="mt-[30px] max-w-[375px]">
+        <p class="mt-[30px] ">
           Les fuites de toit peuvent causer de sérieux problèmes pour votre maison si elles ne sont pas détectées et réparées à temps.<br><br> Chez Macebile, nous sommes experts dans la détection et la réparation des fuites de toit.<br><br> Dans cet article, nous vous expliquerons comment notre équipe de professionnels procède pour repérer et réparer les fuites de toit.
         </p>
-        <h3 class="text-[20px] my-[30px] max-w-[375px]">
+        <h3 class="text-[20px] my-[30px] underline underline-offset-8 decoration-primary">
           Signes d'une fuite de toit
         </h3>
-        <ul class="list-disc list-outside pl-3 max-w-[375px]">
+        <ul class="list-disc list-outside pl-3 ">
           <li>
             Taches d'humidité ou de moisissure au plafond
           </li>
@@ -32,10 +33,10 @@
             Tuiles ou bardeaux manquants ou endommagés sur le toit
           </li>
         </ul>
-        <h3 class="text-[20px] my-[30px]">
+        <h3 class="text-[20px] my-[30px]  underline underline-offset-8 decoration-primary">
           Réparation d'une fuite de toit par Macebile
         </h3>
-        <ul class="list-decimal list-inside max-w-[375px]">
+        <ul class="list-decimal list-inside ">
           <li>
             Nous identifions la source de la fuite et évaluons l'ampleur des dégâts.
           </li>
@@ -46,7 +47,7 @@
             Nous appliquons un produit d'étanchéité pour prévenir les futures infiltrations d'eau.
           </li>
         </ul>
-        <p class="max-w-[375px]">
+        <p class="">
           Faites confiance à Macebile pour détecter et réparer les fuites de toit de manière professionnelle et efficace.
         </p>
       </div>
@@ -55,4 +56,5 @@
 </template>
 
 <style lang="scss">
+
 </style>
