@@ -28,7 +28,7 @@ import PhoneIcon from './icons/Phone.vue'
         </li>
       </ul>
     </div>
-    <a href="+33619360943">
+    <a href="tel:+33619360943">
       <div class="call-nav lg:flex flex-col justify-center items-center font-bold text-white hidden">
         <p class="text-[12px] mb-2">
           POUR UN DEVIS GRATUIT!

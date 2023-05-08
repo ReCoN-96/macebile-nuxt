@@ -14,14 +14,14 @@ const services = [
     img: image1,
     title: 'Rénovation <span class=\'text-primary\'>de toiture</span>',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque laudantium aliquam officia iusto autem. Consectetur ab officiis pariatur ea magnam odio cum id, exercitationem nulla repellendus facilis nihil voluptates?',
-    url: '',
+    url: '/renovation-toiture',
   },
   {
     id: 'service-3',
     img: image1,
     title: 'Installation de <span class=\'text-primary\'>toiture neuve</span>',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eaque laudantium aliquam officia iusto autem. Consectetur ab officiis pariatur ea magnam odio cum id, exercitationem nulla repellendus facilis nihil voluptates?',
-    url: '',
+    url: '/installation-toiture-neuve',
   },
   {
     id: 'service-4',
